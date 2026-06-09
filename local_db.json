@@ -1,0 +1,52 @@
+{
+  "domains": [
+    {
+      "id": 1,
+      "hostname": "google.com",
+      "created_at": "2026-06-09T12:52:58.391Z"
+    },
+    {
+      "id": 2,
+      "hostname": "github.com",
+      "created_at": "2026-06-09T12:53:27.440Z"
+    },
+    {
+      "id": 3,
+      "hostname": "wikipedia.com",
+      "created_at": "2026-06-09T12:57:46.839Z"
+    }
+  ],
+  "scan_results": [
+    {
+      "id": 1,
+      "domain_id": 1,
+      "hostname": "google.com",
+      "issuer": "Google Trust Services",
+      "expiry_date": "2026-08-10",
+      "days_remaining": 62,
+      "status": "HEALTHY",
+      "last_scan": "2026-06-09T12:52:58.483Z"
+    },
+    {
+      "id": 2,
+      "domain_id": 2,
+      "hostname": "github.com",
+      "issuer": "Sectigo Limited",
+      "expiry_date": "2026-08-02",
+      "days_remaining": 54,
+      "status": "HEALTHY",
+      "last_scan": "2026-06-09T12:53:27.819Z"
+    },
+    {
+      "id": 3,
+      "domain_id": 3,
+      "hostname": "wikipedia.com",
+      "issuer": "Let's Encrypt",
+      "expiry_date": "2026-07-23",
+      "days_remaining": 44,
+      "status": "HEALTHY",
+      "last_scan": "2026-06-09T12:57:47.141Z"
+    }
+  ],
+  "tickets": []
+}
