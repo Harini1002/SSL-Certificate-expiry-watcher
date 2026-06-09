@@ -1,4 +1,4 @@
-# SSL Certificate Watcher & AI Agent Core 🛡️
+# SSL Certificate Watcher & AI Agent Core 
 
 A state-of-the-art automatons auditor designed to parse public x509 SSL parameters, class certificate risk boundaries, and instantiate elite, LLM-driven incident tickets to resolve certificate expiry dangers before handshakes fail.
 
@@ -6,7 +6,7 @@ Built specifically for high-stakes technical interviews, full-stack assessments,
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```tree
 .
@@ -36,7 +36,7 @@ Built specifically for high-stakes technical interviews, full-stack assessments,
 
 ---
 
-## ⚡ Quick Start - Python FastAPI Stack
+##  Quick Start - Python FastAPI Stack
 
 ### Prerequisite Setup
 Ensure Python 3.10+ is installed on your local computer block.
@@ -82,7 +82,7 @@ Ensure Python 3.10+ is installed on your local computer block.
 
 ---
 
-## 💻 Quick Start - Node JS Stack
+##  Quick Start - Node JS Stack
 
 Our active Docker container runs a high-performance Express & React framework. Should you want to compile and play inside this environment:
 
@@ -99,9 +99,9 @@ Our active Docker container runs a high-performance Express & React framework. S
 
 ---
 
-## ⚙️ How SSL Socket Audits Resolve TLS Expiries
+##  How SSL Socket Audits Resolve TLS Expiries
 
-### 📋 Single Ingress Hostname Scans
+###  Single Ingress Hostname Scans
 
 To maintain robust, interview-ready readability and architectural simplicity, the system utilizes a single consolidated input mechanism:
 * **Manual Input Textarea**: Enter domain targets directly, one per line (e.g. `google.com`, `github.com`).
@@ -117,13 +117,13 @@ SSL/TLS certificate expiration isn't just a simple administration warning. When 
 While regular curls or `urllib` calls fetch pages over heavy browser protocols, our core executes low-level socket connections. It binds a raw TCP socket to the host on port 443, then wraps the stream inside standard Python or Node TLS handshakes, returning full raw binary ASN1 certificates. This approach is highly robust because it bypasses heavy HTTP overhead, allowing the scanner to parse expired, self-signed, or untrusted certs without crashing.
 
 ### 3. Risk Classification Framework
-* 🔴 **CRITICAL Risk** (Days Remaining &le; 7): Represents extreme threat of immediate service boundary shut-offs. AI Agents immediate construct incidents on Priority 1 schedules.
-* 🟡 **WARNING Risk** (Days Remaining &le; 30): Represents active renewal boundaries. Work tickets are filed to allow sysadmins to schedule CSR key binds in regular maintenance windows.
-* 🟢 **HEALTHY status** (Days Remaining &gt; 30): Certificates present certified algorithms under acceptable operational times.
+*  **CRITICAL Risk** (Days Remaining &le; 7): Represents extreme threat of immediate service boundary shut-offs. AI Agents immediate construct incidents on Priority 1 schedules.
+*  **WARNING Risk** (Days Remaining &le; 30): Represents active renewal boundaries. Work tickets are filed to allow sysadmins to schedule CSR key binds in regular maintenance windows.
+*  **HEALTHY status** (Days Remaining &gt; 30): Certificates present certified algorithms under acceptable operational times.
 
 ---
 
-## 🤖 Deep Dive: AI Mediation Agent Actions
+##  Deep Dive: AI Mediation Agent Actions
 
 The AI agent (integrated with Llama3-8b via Groq or Gemini-3.5 via server-side loaders) executes targeted technical tasks:
 1. **Threat Translation**: Reads cryptographic subject tags and quantifies why an expiring DigiCert or Let's Encrypt bundle disrupts down-market integrations.
@@ -132,7 +132,7 @@ The AI agent (integrated with Llama3-8b via Groq or Gemini-3.5 via server-side l
 
 ---
 
-## 🎓 Technical Interview Q&A Workbook
+##  Technical Interview Q&A Workbook
 
 Be fully prepared to address engineering evaluation panels during Elimination Rounds with these curated conceptual defenses:
 
